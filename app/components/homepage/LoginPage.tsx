@@ -13,6 +13,8 @@ const LoginPage = () => {
         width={300}
       />
       <h1 className="headline">Your teams. Easily in one place</h1>
+      <button className="btn btn-active btn-primary">Test</button>
+      <button className="btn btn-active btn-primary">Sign in with gmail</button>
       <Image
        className="lebron-image"
        src="/images/lebron.png"
