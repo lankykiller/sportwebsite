@@ -45,12 +45,6 @@
     bottom: 10%;
 }
 
-.btn {
-    margin-top: 5%;
-    height: 6rem;
-    width: 20rem;
-    font-size: 2rem;
-}
 
 @media (max-width: 768px) {
     .logo-image {
