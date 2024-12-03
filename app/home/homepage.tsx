@@ -1,9 +1,9 @@
 import React from 'react'
-import { ClerkProvider, RedirectToSignIn, SignedIn } from '@clerk/nextjs'
+import { ClerkProvider, SignedIn } from '@clerk/nextjs'
 import { AppProps } from 'next/app'
 
 
-function homepage({ Component, pageProps }: AppProps) {
+function homepage({ pageProps }: AppProps) {
   return (
     <ClerkProvider {...pageProps}>
       <SignedIn>
