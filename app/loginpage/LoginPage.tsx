@@ -15,7 +15,7 @@ const Logo = () => (
 );
 
 const Headline = () => (
-  <h1 className="headline">Your teams. Easily in one place</h1>
+  <h1 className="headline">Follow your favorite teams</h1>
 );
 
 
@@ -27,6 +27,7 @@ const Images = () => (
       alt="Lebron"
       height={465}
       width={295}
+      priority={true}
     />
     <Image
       className="lamar-image"
